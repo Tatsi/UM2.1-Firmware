@@ -42,13 +42,13 @@ struct materialSettings
 extern struct materialSettings material[EXTRUDERS];
 
 #define FILAMENT_REVERSAL_LENGTH      (FILAMENT_BOWDEN_LENGTH + 50)
-#define FILAMENT_REVERSAL_SPEED       80
+#define FILAMENT_REVERSAL_SPEED       50
 #define FILAMENT_LONG_MOVE_ACCELERATION 20
 #define FILAMENT_LONG_MOVE_JERK       1
 
 #define FILAMENT_FORWARD_LENGTH       (FILAMENT_BOWDEN_LENGTH - 50)
 #define FILAMENT_INSERT_SPEED         2     //Initial insert speed to grab the filament.
-#define FILAMENT_INSERT_FAST_SPEED    80    //Speed during the forward length
+#define FILAMENT_INSERT_FAST_SPEED    50    //Speed during the forward length
 #define FILAMENT_INSERT_EXTRUDE_SPEED 1     //Final speed when extruding
 
 #define EEPROM_RETRACTION_LENGTH_SCALE 256
