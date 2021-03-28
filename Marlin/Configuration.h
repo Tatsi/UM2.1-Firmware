@@ -166,7 +166,7 @@
 #define HEATER_0_MAXTEMP 305    // 275 C limit in Ultimaker 2 since the PTFE coupler degrades rapidly at higher temperatures.
 #define HEATER_1_MAXTEMP 305
 #define HEATER_2_MAXTEMP 305
-#define BED_MAXTEMP 165
+#define BED_MAXTEMP 175
 
 //Check if the heater heats up MAX_HEATING_TEMPERATURE_INCREASE within MAX_HEATING_CHECK_MILLIS while the PID was at the maximum.
 // If not, raise an error because most likely the heater is not heating up the temperature sensor. Indicating an issue in the system.

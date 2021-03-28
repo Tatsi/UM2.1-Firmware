@@ -41,7 +41,7 @@ struct materialSettings
 
 extern struct materialSettings material[EXTRUDERS];
 
-#define FILAMENT_REVERSAL_LENGTH      (FILAMENT_BOWDEN_LENGTH + 50)
+#define FILAMENT_REVERSAL_LENGTH      (FILAMENT_BOWDEN_LENGTH + 100)
 #define FILAMENT_REVERSAL_SPEED       50
 #define FILAMENT_LONG_MOVE_ACCELERATION 20
 #define FILAMENT_LONG_MOVE_JERK       1
